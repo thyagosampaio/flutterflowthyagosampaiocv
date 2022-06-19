@@ -185,155 +185,6 @@ class _CertificadosWidgetState extends State<CertificadosWidget>
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(16, 4, 16, 4),
-                          child: Container(
-                            width: MediaQuery.of(context).size.width,
-                            decoration: BoxDecoration(
-                              color: Color(0xFF1E2429),
-                              borderRadius: BorderRadius.circular(8),
-                            ),
-                            child: Column(
-                              mainAxisSize: MainAxisSize.max,
-                              children: [
-                                Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
-                                      20, 12, 20, 12),
-                                  child: Row(
-                                    mainAxisSize: MainAxisSize.max,
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    children: [
-                                      Column(
-                                        mainAxisSize: MainAxisSize.max,
-                                        mainAxisAlignment:
-                                            MainAxisAlignment.center,
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.start,
-                                        children: [
-                                          Padding(
-                                            padding:
-                                                EdgeInsetsDirectional.fromSTEB(
-                                                    0, 0, 0, 12),
-                                            child: Text(
-                                              'Salary',
-                                              style: FlutterFlowTheme.of(
-                                                      context)
-                                                  .bodyText2
-                                                  .override(
-                                                    fontFamily: 'Lexend Deca',
-                                                    color: Color(0xFF95A1AC),
-                                                    fontSize: 14,
-                                                    fontWeight:
-                                                        FontWeight.normal,
-                                                  ),
-                                            ),
-                                          ),
-                                          Padding(
-                                            padding:
-                                                EdgeInsetsDirectional.fromSTEB(
-                                                    0, 0, 0, 12),
-                                            child: Text(
-                                              'Date',
-                                              style: FlutterFlowTheme.of(
-                                                      context)
-                                                  .bodyText2
-                                                  .override(
-                                                    fontFamily: 'Lexend Deca',
-                                                    color: Color(0xFF95A1AC),
-                                                    fontSize: 14,
-                                                    fontWeight:
-                                                        FontWeight.normal,
-                                                  ),
-                                            ),
-                                          ),
-                                          Text(
-                                            'Location',
-                                            style: FlutterFlowTheme.of(context)
-                                                .bodyText2
-                                                .override(
-                                                  fontFamily: 'Lexend Deca',
-                                                  color: Color(0xFF95A1AC),
-                                                  fontSize: 14,
-                                                  fontWeight: FontWeight.normal,
-                                                ),
-                                          ),
-                                        ],
-                                      ),
-                                      Expanded(
-                                        child: Column(
-                                          mainAxisSize: MainAxisSize.max,
-                                          mainAxisAlignment:
-                                              MainAxisAlignment.center,
-                                          crossAxisAlignment:
-                                              CrossAxisAlignment.start,
-                                          children: [
-                                            Padding(
-                                              padding: EdgeInsetsDirectional
-                                                  .fromSTEB(8, 0, 0, 12),
-                                              child: Text(
-                                                '\$00,000 - \$00,000',
-                                                textAlign: TextAlign.start,
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyText1
-                                                        .override(
-                                                          fontFamily:
-                                                              'Lexend Deca',
-                                                          color: Colors.white,
-                                                          fontSize: 14,
-                                                          fontWeight:
-                                                              FontWeight.normal,
-                                                        ),
-                                              ),
-                                            ),
-                                            Padding(
-                                              padding: EdgeInsetsDirectional
-                                                  .fromSTEB(8, 0, 0, 12),
-                                              child: Text(
-                                                '\$00,000 - \$00,000',
-                                                textAlign: TextAlign.start,
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyText1
-                                                        .override(
-                                                          fontFamily:
-                                                              'Lexend Deca',
-                                                          color: Colors.white,
-                                                          fontSize: 14,
-                                                          fontWeight:
-                                                              FontWeight.normal,
-                                                        ),
-                                              ),
-                                            ),
-                                            Padding(
-                                              padding: EdgeInsetsDirectional
-                                                  .fromSTEB(8, 0, 0, 0),
-                                              child: Text(
-                                                '\$00,000 - \$00,000',
-                                                textAlign: TextAlign.start,
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyText1
-                                                        .override(
-                                                          fontFamily:
-                                                              'Lexend Deca',
-                                                          color: Colors.white,
-                                                          fontSize: 14,
-                                                          fontWeight:
-                                                              FontWeight.normal,
-                                                        ),
-                                              ),
-                                            ),
-                                          ],
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ),
-                        ),
-                        Padding(
                           padding:
                               EdgeInsetsDirectional.fromSTEB(20, 12, 20, 12),
                           child: Row(
@@ -577,7 +428,7 @@ class _CertificadosWidgetState extends State<CertificadosWidget>
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(24, 4, 24, 4),
+                          padding: EdgeInsetsDirectional.fromSTEB(16, 4, 16, 4),
                           child: Container(
                             width: double.infinity,
                             decoration: BoxDecoration(
@@ -667,7 +518,7 @@ class _CertificadosWidgetState extends State<CertificadosWidget>
                                               shape: BoxShape.circle,
                                             ),
                                             child: Image.asset(
-                                              'assets/images/icone_g4f.jpg',
+                                              'assets/images/exomed.png',
                                             ),
                                           ),
                                           Expanded(
@@ -682,7 +533,7 @@ class _CertificadosWidgetState extends State<CertificadosWidget>
                                                   padding: EdgeInsetsDirectional
                                                       .fromSTEB(8, 0, 0, 0),
                                                   child: Text(
-                                                    'Analista de Infraestrutura\nG4F Soluções Corporativas · Tempo integral\nnov de 2019 - o momento',
+                                                    'Analista de Suporte\nExomed · Tempo integral\nago de 2014 - out de 2017',
                                                     textAlign: TextAlign.start,
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -726,7 +577,7 @@ class _CertificadosWidgetState extends State<CertificadosWidget>
                                               shape: BoxShape.circle,
                                             ),
                                             child: Image.asset(
-                                              'assets/images/icone_g4f.jpg',
+                                              'assets/images/bvr.png',
                                             ),
                                           ),
                                           Expanded(
@@ -741,7 +592,7 @@ class _CertificadosWidgetState extends State<CertificadosWidget>
                                                   padding: EdgeInsetsDirectional
                                                       .fromSTEB(8, 0, 0, 0),
                                                   child: Text(
-                                                    'Analista de Infraestrutura\nG4F Soluções Corporativas · Tempo integral\nnov de 2019 - o momento',
+                                                    'Suporte Tecnico\nBVR · Tempo integral\nmar de 2014 - jul de 2014',
                                                     textAlign: TextAlign.start,
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -785,7 +636,7 @@ class _CertificadosWidgetState extends State<CertificadosWidget>
                                               shape: BoxShape.circle,
                                             ),
                                             child: Image.asset(
-                                              'assets/images/icone_g4f.jpg',
+                                              'assets/images/eletroshopping.png',
                                             ),
                                           ),
                                           Expanded(
@@ -800,7 +651,7 @@ class _CertificadosWidgetState extends State<CertificadosWidget>
                                                   padding: EdgeInsetsDirectional
                                                       .fromSTEB(8, 0, 0, 0),
                                                   child: Text(
-                                                    'Analista de Infraestrutura\nG4F Soluções Corporativas · Tempo integral\nnov de 2019 - o momento',
+                                                    'Tecnico em Monitoramento\nEletroShopping · Tempo integral\njan de 2013 - mar de 2014',
                                                     textAlign: TextAlign.start,
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -844,7 +695,8 @@ class _CertificadosWidgetState extends State<CertificadosWidget>
                                               shape: BoxShape.circle,
                                             ),
                                             child: Image.asset(
-                                              'assets/images/icone_g4f.jpg',
+                                              'assets/images/digys.png',
+                                              fit: BoxFit.cover,
                                             ),
                                           ),
                                           Expanded(
@@ -859,7 +711,7 @@ class _CertificadosWidgetState extends State<CertificadosWidget>
                                                   padding: EdgeInsetsDirectional
                                                       .fromSTEB(8, 0, 0, 0),
                                                   child: Text(
-                                                    'Analista de Infraestrutura\nG4F Soluções Corporativas · Tempo integral\nnov de 2019 - o momento',
+                                                    'Tecnico em Informatica\nDisys · Tempo integral\nago de 2012 - jan de 2013',
                                                     textAlign: TextAlign.start,
                                                     style: FlutterFlowTheme.of(
                                                             context)
