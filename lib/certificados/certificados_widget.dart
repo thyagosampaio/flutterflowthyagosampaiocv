@@ -68,7 +68,9 @@ class _CertificadosWidgetState extends State<CertificadosWidget>
                           mainAxisSize: MainAxisSize.max,
                           children: [
                             Text(
-                              'Thyago Sampaio',
+                              FFLocalizations.of(context).getText(
+                                'vw2ptmuh' /* Thyago Sampaio */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(
@@ -86,7 +88,9 @@ class _CertificadosWidgetState extends State<CertificadosWidget>
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Text(
-                                'Analista de Infraestrutura',
+                                FFLocalizations.of(context).getText(
+                                  'powxjm6i' /* Analista de Infraestrutura */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .title3
                                     .override(
@@ -105,7 +109,9 @@ class _CertificadosWidgetState extends State<CertificadosWidget>
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Text(
-                                'tecnologia@thyagosampaio.com.br',
+                                FFLocalizations.of(context).getText(
+                                  '6xhjlqeg' /* tecnologia@thyagosampaio.com.b... */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(
@@ -168,7 +174,9 @@ class _CertificadosWidgetState extends State<CertificadosWidget>
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       12, 0, 0, 0),
                                   child: Text(
-                                    'Analista de Infraestrutura | ISO/IEC 27001 | AZ 900 | WOMCYCyberMaster | Ethical Hacker | OSINT | MCP | Fortinet NSE4 (Loading) | Cisco | Huawei | VMware(vCenter)',
+                                    FFLocalizations.of(context).getText(
+                                      '5pv78yqk' /* Analista de Infraestrutura | I... */,
+                                    ),
                                     textAlign: TextAlign.start,
                                     style: FlutterFlowTheme.of(context)
                                         .subtitle1
@@ -193,7 +201,9 @@ class _CertificadosWidgetState extends State<CertificadosWidget>
                             children: [
                               Expanded(
                                 child: Text(
-                                  'Formação Academica',
+                                  FFLocalizations.of(context).getText(
+                                    'fr9ipkvd' /* Formação Academica */,
+                                  ),
                                   textAlign: TextAlign.start,
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
@@ -258,7 +268,12 @@ class _CertificadosWidgetState extends State<CertificadosWidget>
                                                   padding: EdgeInsetsDirectional
                                                       .fromSTEB(8, 0, 0, 0),
                                                   child: Text(
-                                                    'UNINASSAU\nTecnólogo, Redes de Computadores\n2012 - 2014',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'b2ismpj2' /* UNINASSAU
+Tecnólogo, Redes de ... */
+                                                      ,
+                                                    ),
                                                     textAlign: TextAlign.start,
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -317,7 +332,12 @@ class _CertificadosWidgetState extends State<CertificadosWidget>
                                                   padding: EdgeInsetsDirectional
                                                       .fromSTEB(8, 0, 0, 0),
                                                   child: Text(
-                                                    'DESCOMPLICA FACULDADE DIGITAL\nMBA - Gestão de Projetos\n2022 - 2023',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'nbp18zts' /* DESCOMPLICA FACULDADE DIGITAL
+... */
+                                                      ,
+                                                    ),
                                                     textAlign: TextAlign.start,
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -376,7 +396,12 @@ class _CertificadosWidgetState extends State<CertificadosWidget>
                                                   padding: EdgeInsetsDirectional
                                                       .fromSTEB(8, 0, 0, 0),
                                                   child: Text(
-                                                    'DESCOMPLICA FACULDADE DIGITAL\nMBA - Segurança da Informação\n2022 - 2023',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'u6x90av7' /* DESCOMPLICA FACULDADE DIGITAL
+... */
+                                                      ,
+                                                    ),
                                                     textAlign: TextAlign.start,
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -412,7 +437,9 @@ class _CertificadosWidgetState extends State<CertificadosWidget>
                             children: [
                               Expanded(
                                 child: Text(
-                                  'Experiencia',
+                                  FFLocalizations.of(context).getText(
+                                    '3ra4bdr9' /* Experiencia */,
+                                  ),
                                   textAlign: TextAlign.start,
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
@@ -474,7 +501,12 @@ class _CertificadosWidgetState extends State<CertificadosWidget>
                                                   padding: EdgeInsetsDirectional
                                                       .fromSTEB(8, 0, 0, 0),
                                                   child: Text(
-                                                    'Analista de Infraestrutura\nG4F Soluções Corporativas · Tempo integral\nnov de 2019 - o momento',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'fo78ob60' /* Analista de Infraestrutura
+G4F... */
+                                                      ,
+                                                    ),
                                                     textAlign: TextAlign.start,
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -533,7 +565,12 @@ class _CertificadosWidgetState extends State<CertificadosWidget>
                                                   padding: EdgeInsetsDirectional
                                                       .fromSTEB(8, 0, 0, 0),
                                                   child: Text(
-                                                    'Analista de Suporte\nExomed · Tempo integral\nago de 2014 - out de 2017',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'jzphe801' /* Analista de Suporte
+Exomed · T... */
+                                                      ,
+                                                    ),
                                                     textAlign: TextAlign.start,
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -592,7 +629,12 @@ class _CertificadosWidgetState extends State<CertificadosWidget>
                                                   padding: EdgeInsetsDirectional
                                                       .fromSTEB(8, 0, 0, 0),
                                                   child: Text(
-                                                    'Suporte Tecnico\nBVR · Tempo integral\nmar de 2014 - jul de 2014',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'usb5g1ju' /* Suporte Tecnico
+BVR · Tempo in... */
+                                                      ,
+                                                    ),
                                                     textAlign: TextAlign.start,
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -651,7 +693,12 @@ class _CertificadosWidgetState extends State<CertificadosWidget>
                                                   padding: EdgeInsetsDirectional
                                                       .fromSTEB(8, 0, 0, 0),
                                                   child: Text(
-                                                    'Tecnico em Monitoramento\nEletroShopping · Tempo integral\njan de 2013 - mar de 2014',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      '5mr64rvx' /* Tecnico em Monitoramento
+Eletr... */
+                                                      ,
+                                                    ),
                                                     textAlign: TextAlign.start,
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -711,7 +758,12 @@ class _CertificadosWidgetState extends State<CertificadosWidget>
                                                   padding: EdgeInsetsDirectional
                                                       .fromSTEB(8, 0, 0, 0),
                                                   child: Text(
-                                                    'Tecnico em Informatica\nDisys · Tempo integral\nago de 2012 - jan de 2013',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'wge79xzu' /* Tecnico em Informatica
+Disys ·... */
+                                                      ,
+                                                    ),
                                                     textAlign: TextAlign.start,
                                                     style: FlutterFlowTheme.of(
                                                             context)
