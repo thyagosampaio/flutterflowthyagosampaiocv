@@ -116,4 +116,15 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'home',
     },
   },
+  // bastata
+  {
+    'nlq2ukz1': {
+      'pt': 'Page Title',
+      'en': '',
+    },
+    'cxa5kfag': {
+      'pt': 'Home',
+      'en': '',
+    },
+  },
 ].reduce((a, b) => a..addAll(b));

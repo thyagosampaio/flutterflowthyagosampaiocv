@@ -1,4 +1,4 @@
-import '../flutter_flow/flutter_flow_animations.dart';
+import '../bastata/bastata_widget.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
@@ -11,37 +11,8 @@ class CertificadosWidget extends StatefulWidget {
   _CertificadosWidgetState createState() => _CertificadosWidgetState();
 }
 
-class _CertificadosWidgetState extends State<CertificadosWidget>
-    with TickerProviderStateMixin {
-  final animationsMap = {
-    'circleImageOnActionTriggerAnimation': AnimationInfo(
-      curve: Curves.elasticOut,
-      trigger: AnimationTrigger.onActionTrigger,
-      duration: 600,
-      delay: 440,
-      initialState: AnimationState(
-        offset: Offset(0, 0),
-        scale: 1,
-        opacity: 0,
-      ),
-      finalState: AnimationState(
-        offset: Offset(0, 0),
-        scale: 1.1,
-        opacity: 1,
-      ),
-    ),
-  };
+class _CertificadosWidgetState extends State<CertificadosWidget> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
-
-  @override
-  void initState() {
-    super.initState();
-    setupTriggerAnimations(
-      animationsMap.values
-          .where((anim) => anim.trigger == AnimationTrigger.onActionTrigger),
-      this,
-    );
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -57,7 +28,7 @@ class _CertificadosWidgetState extends State<CertificadosWidget>
                   width: MediaQuery.of(context).size.width,
                   height: 220,
                   decoration: BoxDecoration(
-                    color: Color(0xFF4B39EF),
+                    color: Color(0xDB0C031B),
                   ),
                   child: Padding(
                     padding: EdgeInsetsDirectional.fromSTEB(20, 50, 20, 0),
@@ -158,15 +129,21 @@ class _CertificadosWidgetState extends State<CertificadosWidget>
                             mainAxisSize: MainAxisSize.max,
                             mainAxisAlignment: MainAxisAlignment.start,
                             children: [
-                              Container(
-                                width: 50,
-                                height: 50,
-                                clipBehavior: Clip.antiAlias,
-                                decoration: BoxDecoration(
-                                  shape: BoxShape.circle,
-                                ),
-                                child: Image.asset(
-                                  'assets/images/Perfil.png',
+                              InkWell(
+                                onTap: () async {
+                                  await launchURL(
+                                      'https://www.linkedin.com/in/thyago-sampaio-64b1186a/');
+                                },
+                                child: Container(
+                                  width: 50,
+                                  height: 50,
+                                  clipBehavior: Clip.antiAlias,
+                                  decoration: BoxDecoration(
+                                    shape: BoxShape.circle,
+                                  ),
+                                  child: Image.asset(
+                                    'assets/images/Perfil.png',
+                                  ),
                                 ),
                               ),
                               Expanded(
@@ -242,20 +219,32 @@ class _CertificadosWidgetState extends State<CertificadosWidget>
                                         crossAxisAlignment:
                                             CrossAxisAlignment.start,
                                         children: [
-                                          Container(
-                                            width: 50,
-                                            height: 50,
-                                            clipBehavior: Clip.antiAlias,
-                                            decoration: BoxDecoration(
-                                              shape: BoxShape.circle,
+                                          InkWell(
+                                            onTap: () async {
+                                              await Navigator.push(
+                                                context,
+                                                PageTransition(
+                                                  type: PageTransitionType.fade,
+                                                  duration: Duration(
+                                                      milliseconds: 900),
+                                                  reverseDuration: Duration(
+                                                      milliseconds: 900),
+                                                  child: BastataWidget(),
+                                                ),
+                                              );
+                                            },
+                                            child: Container(
+                                              width: 50,
+                                              height: 50,
+                                              clipBehavior: Clip.antiAlias,
+                                              decoration: BoxDecoration(
+                                                shape: BoxShape.circle,
+                                              ),
+                                              child: Image.asset(
+                                                'assets/images/Uninassau.png',
+                                              ),
                                             ),
-                                            child: Image.asset(
-                                              'assets/images/Uninassau.png',
-                                            ),
-                                          ).animated([
-                                            animationsMap[
-                                                'circleImageOnActionTriggerAnimation']
-                                          ]),
+                                          ),
                                           Expanded(
                                             child: Column(
                                               mainAxisSize: MainAxisSize.max,
